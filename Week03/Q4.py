@@ -4,7 +4,7 @@ wednesday_class = {"Bob", "Diana", "Eve", "Frank"}
 
 monday_class.add("Grace")
 print("Monday Class", monday_class)
-print("Wednesday Class", Wednesday_class)
+print("Wednesday Class", wednesday_class)
 
 both_classes = monday_class & wednesday_class
 print("Attended both classes: ", both_classes)
