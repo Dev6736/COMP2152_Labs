@@ -14,7 +14,7 @@ def seed_database():
     """Create and populate the audit_log table with sample security events."""
     conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
-    cursor.execute("DROP TABLE IF EXISTS audit_log")
+    cursor.execute("DROP  TABLE IF EXISTS audit_log")
     cursor.execute(
         """CREATE TABLE audit_log (
             id INTEGER PRIMARY KEY AUTOINCREMENT,

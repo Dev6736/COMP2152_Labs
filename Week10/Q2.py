@@ -13,7 +13,7 @@ DB_NAME = "login_tracker.db"
 
 # --- Helpers  (provided) ---
 def setup_database():
-    """Create the login_attempts table if it doesn't exist."""
+    """Create the login_attempts  table if it doesn't exist."""
     conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
     cursor.execute("DROP TABLE IF EXISTS login_attempts")

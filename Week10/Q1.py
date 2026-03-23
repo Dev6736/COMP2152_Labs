@@ -68,7 +68,7 @@ def find_credential(website):
     return rows
 
 
-# --- Main (provided) ---
+# --- Main (provided ) ---
 
 if _name_ == "_main_":
     print("=" * 60)
