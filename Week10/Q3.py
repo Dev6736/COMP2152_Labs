@@ -8,7 +8,7 @@ import unittest
 
 DB_NAME = "audit.db"
 
-# --- Helpers (provided) — seeds the database with sample data ---
+# --- Helpers  (provided) — seeds the database with sample data ---
 
 def seed_database():
     """Create and populate the audit_log table with sample security events."""

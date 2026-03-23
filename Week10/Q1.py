@@ -77,7 +77,7 @@ if _name_ == "_main_":
 
     setup_database()
 
-    print("\n--- Adding Credentials ---")
+    print("\n--- Adding  Credentials ---")
     credentials = [
         ("github.com", "admin", "s3cur3P@ss"),
         ("google.com", "maziar@gmail", "MyP@ssw0rd"),

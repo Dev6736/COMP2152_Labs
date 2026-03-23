@@ -7,10 +7,11 @@ import sqlite3
 import datetime
 
 
+
 DB_NAME = "login_tracker.db"
 
 
-# --- Helpers (provided) ---
+# --- Helpers  (provided) ---
 def setup_database():
     """Create the login_attempts table if it doesn't exist."""
     conn = sqlite3.connect(DB_NAME)
